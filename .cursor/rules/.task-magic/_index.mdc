@@ -29,4 +29,10 @@ The Task Magic system is a file-based project management and AI agent operationa
     *   **Log File**: A chronological log of archived tasks is maintained in `.ai/memory/TASKS_LOG.md`.
     *   **Details**: For storing to memory, full review [task-magic/memory.mdc](mdc:.cursor/rules/task-magic/memory.mdc)
 
-This interconnected system allows for structured project development, from high-level planning to task execution and historical review, primarily managed through Markdown files and defined agent responsibilities.
+4.  **Debugging (`@debug.mdc`)**
+    *   **Purpose**: Provides a systematic approach to identifying, diagnosing, and resolving issues in the codebase.
+    *   **Location**: Active debugging files are stored in `.ai/debug/` as `debug{id}_task{id}_name.md`.
+    *   **Log File**: A chronological log of debugging sessions is maintained in `.ai/memory/DEBUGS_LOG.md`.
+    *   **Details**: For debugging workflow and file structure, review [task-magic/debug.mdc](mdc:.cursor/rules/task-magic/debug.mdc)
+
+This interconnected system allows for structured project development, from high-level planning to task execution, debugging, and historical review, primarily managed through Markdown files and defined agent responsibilities.
